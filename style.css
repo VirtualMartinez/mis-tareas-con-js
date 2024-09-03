@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Homemade+Apple&family=Pacifico&display=swap');
+
+
+body {
+    background-image: url("https://i.pinimg.com/originals/aa/55/8e/aa558ef93e353bee194f7c947c525072.gif");
+    background-size: cover;
+}
+
+h1{
+    font-family: "Homemade Apple", cursive;
+    color: #ffffff;
+    text-align: center;
+}
+    
+
+
+.myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+.oneContainer {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);  
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.checkbox-wrapper {
+    box-sizing: border-box;
+    --background-color: #ffffff00;
+    --checkbox-height: 25px;
+  }
+  
+  .checkbox-wrapper input[type=checkbox] {
+    display: none;
+  }
+  
+  .checkbox-wrapper .check-box {
+    height: var(--checkbox-height);
+    width: var(--checkbox-height);
+    background-color: transparent;
+    border: calc(var(--checkbox-height) * .1) solid #ffffff;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: border-color ease 0.2s;
+    -o-transition: border-color ease 0.2s;
+    -webkit-transition: border-color ease 0.2s;
+    transition: border-color ease 0.2s;
+    cursor: pointer;
+  }
+  
+  .checkbox-wrapper .check-box::before,
+    .checkbox-wrapper .check-box::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    height: 0;
+    width: calc(var(--checkbox-height) * .2);
+    background-color: #ff699e;
+    background-image: linear-gradient(43deg, #ff2989 0%, #FFCC70 46%, #ff2989 100%);
+    display: inline-block;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    border-radius: 5px;
+    content: " ";
+    -webkit-transition: opacity ease 0.5;
+    -moz-transition: opacity ease 0.5;
+    transition: opacity ease 0.5;
+  }
+  
+  .checkbox-wrapper .check-box::before {
+    top: calc(var(--checkbox-height) * .72);
+    left: calc(var(--checkbox-height) * .41);
+    box-shadow: 0 0 0 calc(var(--checkbox-height) * .05) var(--background-color);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  
+  .checkbox-wrapper .check-box::after {
+    top: calc(var(--checkbox-height) * .37);
+    left: calc(var(--checkbox-height) * .05);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .checkbox-wrapper input[type=checkbox]:checked + .check-box,
+    .checkbox-wrapper .check-box.checked {
+    border-color: #ffffff;
+  }
+  
+  .checkbox-wrapper input[type=checkbox]:checked + .check-box::after,
+    .checkbox-wrapper .check-box.checked::after {
+    height: calc(var(--checkbox-height) / 2);
+    -moz-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+    -o-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+    -webkit-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+    animation: dothabottomcheck-19 0.2s ease 0s forwards;
+  }
+  
+  .checkbox-wrapper input[type=checkbox]:checked + .check-box::before,
+    .checkbox-wrapper .check-box.checked::before {
+    height: calc(var(--checkbox-height) * 1.2);
+    -moz-animation: dothatopcheck-19 0.4s ease 0s forwards;
+    -o-animation: dothatopcheck-19 0.4s ease 0s forwards;
+    -webkit-animation: dothatopcheck-19 0.4s ease 0s forwards;
+    animation: dothatopcheck-19 0.4s ease 0s forwards;
+  }
+
+
+  
+
+
+  .myContainer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+  }
+
+
+  .myButton {
+    position: relative;
+    padding: 12px 35px;
+    background-color: #ff85af;
+    background-image: linear-gradient(45deg, #ff85af 0%, #fffb9e 100%);
+    font-size: 1.2rem;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    border: 3px solid #ff85af;
+    border-radius: 30px;
+    box-shadow: 0 0 0 #ffffff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .star-1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #FBB763);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  }
+  
+  .star-2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #FBB763);
+    z-index: -5;
+    transition: all 1scubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-3 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #ff85af);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-4 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #FBB763);
+    z-index: -5;
+    transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #FBB763);
+    z-index: -5;
+    transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #ff85af);
+    z-index: -5;
+    transition: all 0.8s ease;
+  }
+  
+  .myButton:hover {
+    background: transparent;
+    color: #ffffff;
+    box-shadow: 0 0 0px #ff85af;
+  }
+  
+  .myButton:hover .star-1 {
+    position: absolute;
+    top: -80%;
+    left: -30%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #ff85af);
+    z-index: 2;
+  }
+  
+  .myButton:hover .star-2 {
+    position: absolute;
+    top: -0%;
+    left: 10%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #ff85af);
+    z-index: 2;
+  }
+  
+  .myButton:hover .star-3 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #ff85af);
+    z-index: 2;
+  }
+  
+  .myButton:hover .star-4 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #ff85af);
+    z-index: 2;
+  }
+  
+  .myButton:hover .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 115%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #ff85af);
+    z-index: 2;
+  }
+  
+  .myButton:hover .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #ff85af);
+    z-index: 2;
+  }
+  
+  .fil0 {
+    fill: #ffd49f;
+  }
+
+
+  .otherContainer {
+    position: relative;
+    --size-button: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  
+  .myInput {
+    padding-left: var(--size-button);
+    height: var(--size-button);
+    font-size: 1.2rem;
+    border: none;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    outline: none;
+    width: var(--size-button);
+    transition: all ease 0.3s;
+    background-color: #ffb0bc;
+    border: 3px solid #ff85af;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .myInput:focus,
+  .myInput:not(:invalid) {
+    width: 200px;
+    cursor: text;
+  }
+  
+  .myInput:focus + .icon,
+  .myInput:not(:invalid) + .icon {
+    pointer-events: all;
+    cursor: pointer;
+  }
+
+  .myInput::placeholder{
+    color: #ffffff;
+  }
+  
+  .otherContainer .icon {
+    position: absolute;
+    width: var(--size-button);
+    height: var(--size-button);
+    top: 0;
+    left: 0;
+    padding: 8px;
+    pointer-events: none;
+  }
+  
+  .otherContainer .icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  
+
+
+
+  .textareacontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .myTextArea{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    /* From https://css.glass */
+    background: rgba(246, 113, 142, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(246, 113, 142, 0.76);
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+    outline: none;
+  }
+
+  .myTextArea::placeholder{
+    color: #ffffff;
+  }
+
+
+  .saveButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10rem;
+    transition: all 0.02s;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    z-index: 0;
+    box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .saveButton:hover {
+    background: rgba(255, 226, 147, 0.598);
+    color: rgb(33, 0, 85);
+  }
+  
+  .saveButton:active {
+    transform: scale(0.97);
+  }
+  
+  .hoverEffect {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .hoverEffect div {
+    background: rgb(222,0,75);
+    background: linear-gradient(90deg, #ff85af 0%, rgb(255, 135, 177) 49%, #ffd49f 100%);
+    border-radius: 40rem;
+    width: 10rem;
+    height: 10rem;
+    transition: 0.4s;
+    filter: blur(20px);
+    animation: effect infinite 3s linear;
+    opacity: 0.5;
+  }
+  
+  .saveButton:hover .hoverEffect div {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  @keyframes effect {
+  
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  .note{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* From https://css.glass */
+    background: rgba(255, 139, 178, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 139, 178, 0.76);
+    padding: 1%;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  .edit-button{
+    padding: 10px;
+   
+    background: transparent;
+    color: #ffffff;
+    box-shadow: 0 0 0px #ff85af;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    border: 3px solid #ff85af;
+    border-radius: 30px;
+    box-shadow: 0 0 0 #ffffff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .edit-button:hover {
+    color: #ffffff;
+    box-shadow: 0 0 0px #ff85af;
+    background-color: #ff85af;
+    background-image: linear-gradient(45deg, #ff85af 0%, #fffb9e 100%);
+  }
+
+  .delete-button{
+    padding: 10px;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: 0 0 0px #ff85af;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    border: 3px solid #ff85af;
+    border-radius: 30px;
+    box-shadow: 0 0 0 #ffffff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .delete-button:hover {
+    color: #ffffff;
+    box-shadow: 0 0 0px #ff85af;
+    background-color: #ff85af;
+    background-image: linear-gradient(45deg, #ff85af 0%, #fffb9e 100%);
+  }
+
+  .taskContainer{
+    gap: 30px;
+
+  }
