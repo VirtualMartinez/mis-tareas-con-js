@@ -7,7 +7,7 @@ body {
 }
 
 h1{
-    font-family: "Homemade Apple", cursive;
+    font-family: "Constancia", serif;
     color: #ffffff;
     text-align: center;
 }
@@ -18,7 +18,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Caveat", cursive;
+    font-family: "Constancia", serif;
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
@@ -28,7 +28,7 @@ h1{
 
 .oneContainer {
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(122, 73, 73, 0.25);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.9px);
@@ -40,7 +40,7 @@ h1{
 
 .checkbox-wrapper {
     box-sizing: border-box;
-    --background-color: #ffffff00;
+    --background-color: #99292900;
     --checkbox-height: 25px;
   }
   
@@ -74,8 +74,8 @@ h1{
     position: absolute;
     height: 0;
     width: calc(var(--checkbox-height) * .2);
-    background-color: #ff699e;
-    background-image: linear-gradient(43deg, #ff2989 0%, #FFCC70 46%, #ff2989 100%);
+    background-color: #69c3ff;
+    background-image: linear-gradient(43deg, #296dff 0%, #85c3fd 46%, #b5cff5 100%);
     display: inline-block;
     -moz-transform-origin: left top;
     -ms-transform-origin: left top;
@@ -149,13 +149,13 @@ h1{
   .myButton {
     position: relative;
     padding: 12px 35px;
-    background-color: #ff85af;
-    background-image: linear-gradient(45deg, #ff85af 0%, #fffb9e 100%);
+    background-color: #85a2ff;
+    background-image: linear-gradient(45deg, #72a0e6 0%, #fffb9e 100%);
     font-size: 1.2rem;
     font-weight: 1000;
-    font-family: "Caveat", cursive;
-    color: #ffffff;
-    border: 3px solid #ff85af;
+    font-family: "Constancia", serif;
+    color: #200e0e;
+    border: 3px solid #7cd0e6;
     border-radius: 30px;
     box-shadow: 0 0 0 #ffffff;
     transition: all 0.3s ease-in-out;
@@ -168,7 +168,7 @@ h1{
     left: 20%;
     width: 25px;
     height: auto;
-    filter: drop-shadow(0 0 0 #FBB763);
+    filter: drop-shadow(0 0 0 #6d99e9);
     z-index: -5;
     transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
   }
@@ -179,7 +179,7 @@ h1{
     left: 45%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 0 #FBB763);
+    filter: drop-shadow(0 0 0 #6d99e9);
     z-index: -5;
     transition: all 1scubic-bezier(0, 0.4, 0, 1.01);
   }
@@ -190,7 +190,7 @@ h1{
     left: 40%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 0 #ff85af);
+    filter: drop-shadow(0 0 0 #6d99e9);
     z-index: -5;
     transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
   }
@@ -201,7 +201,7 @@ h1{
     left: 40%;
     width: 8px;
     height: auto;
-    filter: drop-shadow(0 0 0 #FBB763);
+    filter: drop-shadow(0 0 0 #6d99e9);
     z-index: -5;
     transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
   }
@@ -212,7 +212,7 @@ h1{
     left: 45%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 0 #FBB763);
+    filter: drop-shadow(0 0 0 #6d99e9);
     z-index: -5;
     transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
   }
@@ -223,7 +223,7 @@ h1{
     left: 50%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 0 #ff85af);
+    filter: drop-shadow(0 0 0 #6d99e9);
     z-index: -5;
     transition: all 0.8s ease;
   }
@@ -231,7 +231,7 @@ h1{
   .myButton:hover {
     background: transparent;
     color: #ffffff;
-    box-shadow: 0 0 0px #ff85af;
+    box-shadow: 0 0 0px #6d99e9;
   }
   
   .myButton:hover .star-1 {
@@ -240,7 +240,7 @@ h1{
     left: -30%;
     width: 25px;
     height: auto;
-    filter: drop-shadow(0 0 0px #ff85af);
+    filter: drop-shadow(0 0 0px #6d99e9);
     z-index: 2;
   }
   
@@ -250,7 +250,7 @@ h1{
     left: 10%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 0px #ff85af);
+    filter: drop-shadow(0 0 0px #6d99e9);
     z-index: 2;
   }
   
@@ -260,7 +260,7 @@ h1{
     left: 25%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 0px #ff85af);
+    filter: drop-shadow(0 0 0px #6d99e9);
     z-index: 2;
   }
   
@@ -270,7 +270,7 @@ h1{
     left: 80%;
     width: 8px;
     height: auto;
-    filter: drop-shadow(0 0 0px #ff85af);
+    filter: drop-shadow(0 0 0px #6d99e9);
     z-index: 2;
   }
   
@@ -280,7 +280,7 @@ h1{
     left: 115%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 0px #ff85af);
+    filter: drop-shadow(0 0 0px #6d99e9);
     z-index: 2;
   }
   
@@ -290,19 +290,19 @@ h1{
     left: 60%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 0px #ff85af);
+    filter: drop-shadow(0 0 0px #6d99e9);
     z-index: 2;
   }
   
   .fil0 {
-    fill: #ffd49f;
+    fill: #6d99e9;
   }
 
 
   .otherContainer {
     position: relative;
     --size-button: 40px;
-    color: white;
+    color: rgb(125, 199, 233);
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -314,13 +314,13 @@ h1{
     height: var(--size-button);
     font-size: 1.2rem;
     border: none;
-    font-family: "Caveat", cursive;
-    color: #ffffff;
+    font-family: "Constancia", serif;
+    color: #a52929;
     outline: none;
     width: var(--size-button);
     transition: all ease 0.3s;
-    background-color: #ffb0bc;
-    border: 3px solid #ff85af;
+    background-color: #416697;
+    border: 3px solid #2c407a;
     border-radius: 50px;
     cursor: pointer;
   }
@@ -374,15 +374,15 @@ h1{
   .myTextArea{
     padding: 10px;
     font-size: 1.5rem;
-    font-family: "Caveat", cursive;
+    font-family: "Constancia", serif;
     color: #ffffff;
     /* From https://css.glass */
-    background: rgba(246, 113, 142, 0.33);
+    background: rgba(54, 49, 134, 0.33);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.1px);
     -webkit-backdrop-filter: blur(7.1px);
-    border: 1px solid rgba(246, 113, 142, 0.76);
+    border: 1px solid rgba(57, 98, 173, 0.76);
     border-radius: 30px;
     width: 300px;
     height: 100px;
@@ -390,7 +390,7 @@ h1{
   }
 
   .myTextArea::placeholder{
-    color: #ffffff;
+    color: #f4f6fc;
   }
 
 
@@ -432,8 +432,8 @@ h1{
   }
   
   .hoverEffect div {
-    background: rgb(222,0,75);
-    background: linear-gradient(90deg, #ff85af 0%, rgb(255, 135, 177) 49%, #ffd49f 100%);
+    background: rgb(116, 117, 185);
+    background: linear-gradient(90deg, #6271b4 0%, rgb(82, 107, 161) 49%, #cad1e7 100%);
     border-radius: 40rem;
     width: 10rem;
     height: 10rem;
@@ -473,7 +473,7 @@ h1{
     -webkit-backdrop-filter: blur(7.7px);
     border: 1px solid rgba(255, 139, 178, 0.76);
     padding: 1%;
-    font-family: "Caveat", cursive;
+    font-family: "Constancia", serif;
     color: #ffffff;
     font-size: 1.5rem;
   }
@@ -483,12 +483,12 @@ h1{
    
     background: transparent;
     color: #ffffff;
-    box-shadow: 0 0 0px #ff85af;
+    box-shadow: 0 0 0px #5865b1;
     font-size: 1.2rem;
     font-weight: 1000;
-    font-family: "Caveat", cursive;
+    font-family: "Constancia", serif;
     color: #ffffff;
-    border: 3px solid #ff85af;
+    border: 3px solid #282286;
     border-radius: 30px;
     box-shadow: 0 0 0 #ffffff;
     transition: all 0.3s ease-in-out;
@@ -498,21 +498,21 @@ h1{
 
   .edit-button:hover {
     color: #ffffff;
-    box-shadow: 0 0 0px #ff85af;
-    background-color: #ff85af;
-    background-image: linear-gradient(45deg, #ff85af 0%, #fffb9e 100%);
+    box-shadow: 0 0 0px #635db8;
+    background-color: #42467c;
+    background-image: linear-gradient(45deg, #5564a5 0%, #fffb9e 100%);
   }
 
   .delete-button{
     padding: 10px;
     background: transparent;
     color: #ffffff;
-    box-shadow: 0 0 0px #ff85af;
+    box-shadow: 0 0 0px #495e97;
     font-size: 1.2rem;
     font-weight: 1000;
-    font-family: "Caveat", cursive;
+    font-family: "Constancia", serif;
     color: #ffffff;
-    border: 3px solid #ff85af;
+    border: 3px solid #282286;
     border-radius: 30px;
     box-shadow: 0 0 0 #ffffff;
     transition: all 0.3s ease-in-out;
